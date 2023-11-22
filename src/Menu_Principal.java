@@ -90,7 +90,7 @@ public class Menu_Principal extends javax.swing.JFrame {
                 Botao_ClienteActionPerformed(evt);
             }
         });
-        getContentPane().add(Botao_Cliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(104, 307, -1, -1));
+        getContentPane().add(Botao_Cliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(104, 300, -1, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens_Menu/Senhor Acai.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(929, 246, -1, -1));
