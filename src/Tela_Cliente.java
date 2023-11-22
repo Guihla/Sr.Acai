@@ -110,7 +110,7 @@ public class Tela_Cliente extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void VoltarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VoltarActionPerformed
-        new Tela_Cliente().setVisible(true);
+        new Menu_Principal().setVisible(true);
         dispose();
     }//GEN-LAST:event_VoltarActionPerformed
 
