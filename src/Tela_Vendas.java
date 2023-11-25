@@ -57,7 +57,7 @@ public class Tela_Vendas extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 945, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 850, -1, -1));
 
         setSize(new java.awt.Dimension(1456, 1032));
         setLocationRelativeTo(null);

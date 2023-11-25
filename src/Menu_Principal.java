@@ -31,8 +31,8 @@ public class Menu_Principal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        Botao_Logout = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
         Retangulo_Borda = new javax.swing.JLabel();
         Botao_Sair = new javax.swing.JButton();
         Botao_Vendas = new javax.swing.JButton();
@@ -51,11 +51,19 @@ public class Menu_Principal extends javax.swing.JFrame {
         });
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        Botao_Logout.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens_Menu/Sair_Topo_Fundo.png"))); // NOI18N
+        Botao_Logout.setBorderPainted(false);
+        Botao_Logout.setContentAreaFilled(false);
+        Botao_Logout.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Botao_Logout.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Botao_LogoutActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Botao_Logout, new org.netbeans.lib.awtextra.AbsoluteConstraints(982, 22, -1, -1));
+
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens_Menu/Sem Título-2 1.png"))); // NOI18N
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1064, 21, -1, -1));
-
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens_Menu/Sem Título-2 2.png"))); // NOI18N
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(982, 27, -1, -1));
 
         Retangulo_Borda.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens_Menu/Rectangle 36.png"))); // NOI18N
         getContentPane().add(Retangulo_Borda, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
@@ -117,6 +125,11 @@ public class Menu_Principal extends javax.swing.JFrame {
         dispose();
     }//GEN-LAST:event_Botao_ClienteActionPerformed
 
+    private void Botao_LogoutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Botao_LogoutActionPerformed
+        new Tela_Login().setVisible(true);
+        dispose();
+    }//GEN-LAST:event_Botao_LogoutActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -155,11 +168,11 @@ public class Menu_Principal extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Botao_Cliente;
+    private javax.swing.JButton Botao_Logout;
     private javax.swing.JButton Botao_Sair;
     private javax.swing.JButton Botao_Vendas;
     private javax.swing.JLabel Retangulo_Borda;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     // End of variables declaration//GEN-END:variables
 }
